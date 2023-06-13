@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1, p{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(236, 236, 236);
+}
+
+header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.btn-lang {
+    border: solid  rgb(179, 179, 179) 1px;
+    border-radius: 5px;
+    background-color: rgb(247, 247, 247);
+    padding: 10px;
+}
+
+/* CONTENT-1 */
+
+.content1{
+    margin-right: 3%;
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-config-pc{
+    width: 30%;
+}
+
+.text-content1{
+    text-align: right;
+}
+
+.btn-clear{
+    padding: 10px;
+    margin-top: 5px;
+    width: 50%;
+
+    border: solid 1px white;
+    border-radius: 10px;
+    color:white;
+    background-color: #0033ff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.btn-clear:hover{
+    transition: 500ms;
+    background-color: rgb(0, 94, 255);
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+  }
+  
+  #divLimparCache {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    z-index: 10000;
+  }
+  
+
+/* CONTENT-2 */
+
+.content2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('img/background-c2.png');
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.text-content2{
+    text-align: left;
+    color: rgb(243, 243, 243);
+}
+
+.img-historic-icon{
+    width: 25%;
+}
+
+.c2{
+    margin-top: 15px;
+}
